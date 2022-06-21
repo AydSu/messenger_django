@@ -3,5 +3,5 @@ from .views import *
 
 urlpatterns = [
     path('', index),
-    path('viewer', view_message)
+    path('viewer', view_all_messages)
 ]
